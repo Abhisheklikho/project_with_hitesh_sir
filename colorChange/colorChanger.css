@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+
+}
+
+.container div{
+    height: 8rem;
+    width: 8rem;
+    border: 1px solid rgb(251, 185, 31);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container #one{
+    background-color:#ff5500;
+}
+
+.container #two {
+    background-color: #ffffff;
+}
+
+.container #three {
+    background-color: #007c02;
+}
+
+.container button{
+    all: unset;
+    height: 100%;
+    width: 100%;
+}
+
